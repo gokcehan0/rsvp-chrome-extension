@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP extension</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    background-color: #222831;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 20em;
+    height: 3em;
+  }
+  
+  select {
+    border: 0;
+    background-color: transparent;
+    margin-left: 0.5rem;
+    color: white;
+    outline: 0;
+    margin-bottom: 0.5rem;
+  }
+  option {
+    background-color: #000;
+  }
+  label {
+    margin-left: 1rem;
+  }
+  .container {
+    margin-top: 1.5em;
+  }
+</style>
+<body>
+  <div class="container">
+    <label for="speedInput">Speed:</label>
+    <select id="speedInput">
+      <option value="3">1x</option>
+      <option value="4">1.5x</option>
+      <option value="5">2x</option>
+    </select>
+    <label for="fontSizeInput">Font Size:</label>
+    <select id="fontSizeInput">
+      <option value="1em">S</option>
+      <option value="1.5em">M</option>
+      <option value="2em">L</option>
+      <option value="2.5em">XL</option>
+    </select>
+    <label for="modeInput">Mode:</label>
+    <select id="modeInput">
+      <option value="normal">Focus</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
