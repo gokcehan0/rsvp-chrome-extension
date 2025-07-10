@@ -14,11 +14,17 @@ A simple Chrome extension that demonstrates RSVP (Rapid Serial Visual Presentati
 4. Click **Load unpacked** and select this project folder.
 5. Click the extension icon to open the popup and start using RSVP!
 
-## Demo Video 🎥
+## Demo GIF 🎬
 
-<video src="video/vid1.mp4" controls width="400">Your browser does not support the video tag.</video>
+![Demo GIF](vid.gif)
 
-Check out the example video above or in the [`video/vid1.mp4`](video/vid1.mp4) folder to see the extension in action!
+Check out the animated demo above to see the extension in action!
+
+## Video Demo 🎥
+
+![Video Demo GIF](video/vid1.gif)
+
+If you want to see a longer demo, check out the video version above!
 
 ## Files 📁
 - `manifest.json` – Extension configuration
@@ -26,6 +32,7 @@ Check out the example video above or in the [`video/vid1.mp4`](video/vid1.mp4) f
 - `popup.html` – Popup UI
 - `popup.js` – Popup logic
 - `video/vid1.mp4` – Example RSVP demo video
+- `video/vid1.gif` – Example RSVP demo as GIF
 
 ## License 📄
 MIT
