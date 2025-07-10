@@ -20,8 +20,6 @@ A simple Chrome extension that demonstrates RSVP (Rapid Serial Visual Presentati
 
 Check out the animated demo above to see the extension in action!
 
-If you want to see a longer demo, check out the video version above!
-
 ## Files 📁
 - `manifest.json` – Extension configuration
 - `background.js` – Background script
