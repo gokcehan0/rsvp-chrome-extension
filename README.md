@@ -16,13 +16,9 @@ A simple Chrome extension that demonstrates RSVP (Rapid Serial Visual Presentati
 
 ## Demo GIF 🎬
 
-![Demo GIF](vid.gif)
+![Demo video](vid.gif)
 
 Check out the animated demo above to see the extension in action!
-
-## Video Demo 🎥
-
-![Video Demo GIF](video/vid1.gif)
 
 If you want to see a longer demo, check out the video version above!
 
