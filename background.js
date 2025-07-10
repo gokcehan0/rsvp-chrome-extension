@@ -71,7 +71,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
 
 chrome.contextMenus.create({
   id: "rsvpMenuItem",
-  title: "Seçili Metni Oku",
+  title: "Read the selected text",
   contexts: ["selection"]
 });
 
